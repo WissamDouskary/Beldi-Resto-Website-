@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
+
+body{
+    background-image: url(img/background-menu.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80vh;
+    margin: 0;
+}
+.logo{
+   width: 80px;
+   margin-top : 20 px;
+   margin-left: 110px;
+}
+header{
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(99 99 99 / 75%);
+
+}
+.containernav{
+  display: flex;
+  gap: 120px;
+  margin-right: 110px;
+}
+.containernav a {
+  text-decoration: none;
+}
+.text1 {
+    color: #e9bd8c;
+    font-size: 22px;
+    font-family: Poppins, "SemiBold";
+    font-weight: 600;
+}
+.text2{
+  color: #f5f5f5;
+  font-size: 22px;
+  font-family: Poppins, "SemiBold";
+  font-weight: 600;
+}
+.text3 {
+  color: #f5f5f5;
+  font-size: 22px;
+  font-family: Poppins, "SemiBold";
+  font-weight: 600;
+}
+.text4 {
+  color: #f5f5f5;
+  font-size: 22px;
+  font-family: Poppins, "SemiBold";
+  font-weight: 600;
+}
+
+.HomeCelements{
+  margin-left: 100px;
+}
+.HomeFirstLine {
+  color:#E9BD8C;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  margin-top : 120px;
+}
+.MenLastLine {
+  color: #F5F5F5;
+  font-family: "Sansita Swashed", system-ui;
+  font-weight: 400;
+  font-size: 45px;
+  margin-bottom: 100px;
+}
+.Homebtn{
+  display: flex;
+  align-items: center;
+  gap: 30px ;
+}
+.shopnowbtn input{
+  width: 165px;
+  height: 60px;
+  border-radius: 5px;
+  background-color: #933C24;
+  color: #F2F2F2;
+  border: none;
+  font-size: 17px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  transition: ease .5s;
+  cursor: pointer;
+}
+
+.shopnowbtn input:hover{
+  transform: scale(1.1);
+}
+
+.learnmorebtn{
+  display: flex;
+  text-decoration: none;
+  text-decoration-line: none;
+  color: #E9BD8C;
+  font-size: 19px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+
+
+.learnmorebtn img{
+  position: relative;
+  height: 20px;
+  top: 21px;
+  left: 13px;
+}
+
+
+/* footer */
+
+
+.footer{
+  background-image: url(img/footerBack.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 160px;
+  padding: 50px 0;
+}
+
+.Followus{
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  color: #E9BD8D;
+}
+
+.firstelement{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 60px;
+  border-bottom: 1px solid #E9BD8D;
+}
+.Followus{
+  position: relative;
+  left: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.Followus img{
+  width: 30px;
+}
+
+.Followus p{
+  position: relative;
+  right: 70px;
+}
+
+.faboutus h3 {
+  color: #E9BD8D;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  margin-left: 40px;
+  font-size: 40px;
+}
+
+.faboutus{
+  margin: 60px 0 0 180px;
+}
+
+.faboutus ul li a{
+  color: #F5F5F5;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: Poppins, "SemiBold";
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.faboutus ul li:first-child{
+  margin-bottom: 15px;
+}
+.faboutus ul li:last-child{
+  margin-top: 15px;
+}
+
+.firstelement span img{
+  position: relative;
+  right: 60px;
+}
+.aboutExcontent {
+  display: flex;
+}
+
+.ExploreMoretxt{
+  padding: 60px 0 60px 0;
+}
+
+#Recenttxt{
+  margin-left: 120px;
+  margin-bottom: 45px;
+}
+
+.recentitems{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-left: 120px;
+}
+
+.recentInfos span:first-child{
+  font-family: Poppins, "SemiBold";
+  font-weight: 400;
+  font-size: 13px;
+  color: #E9BD8C;
+  display: block;
+  margin-bottom: 12px;
+}
+.recentInfos span:last-child{
+  font-family: Poppins, "SemiBold";
+  font-weight: 500;
+  font-size: 20px;
+  color: #F5F5F5;
+}
+
+.recentInfos{
+  position: relative;
+  bottom: 10px;
+}
+
+.footer h4{
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #737373;
+  margin-bottom: 0;
+  margin-top: 70px;
+}
+footer{
+  margin-top: 300px;
+}
+
+
