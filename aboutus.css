@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+
+body{
+    width: 100%;
+    height: 80vh;
+    margin: 0;
+}
+
+.logo{
+    width: 80px;
+    margin-top : 20 px;
+    margin-left: 110px;
+}
+header{
+    background-color: #2E2D2A;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+}
+.containernav{
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    margin-right: 110px;
+}
+.containernav a {
+  text-decoration: none;
+}
+.text1 {
+    color: #f5f5f5;
+    font-size: 22px;
+    font-family: Poppins, "SemiBold";
+    font-weight: 600;
+}
+.text2{
+  color: #f5f5f5;
+  font-size: 22px;
+  font-family: Poppins, "SemiBold";
+  font-weight: 600;
+}
+.text3 {
+  color: #f5f5f5;
+  font-size: 22px;
+  font-family: Poppins, "SemiBold";
+  font-weight: 600;
+}
+.text4 {
+  color: #e9bd8c;
+  font-size: 22px;
+  font-family: Poppins, "SemiBold";
+  font-weight: 600;
+}
+
+
+.section1{
+    margin-top: 180px;
+    background-image: url(img/aboutusback.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+
+
+.section1 div h2{
+    font-family: "Sansita Swashed", system-ui;
+    font-weight: 600;
+    font-size: 40px ;
+    color: #F5F5F5;
+}
+
+.section1 div p{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: #B9B9B9;
+}
+
+
+.shopnowbtn{
+    margin-bottom: 60px;
+    margin-top: 16px;
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #933C24;
+    color: #F2F2F2;
+    border: none;
+    font-size: 17px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    transition: ease .5s;
+    cursor: pointer;
+  }
+  
+  .shopnowbtn:hover{
+    transform: scale(1.1);
+  }
+
+
+  .section1 div h2+p{
+    margin-bottom: 20px;
+  }
+
+  .section2{
+    margin : 50px 60px;
+    display: flex;
+    justify-content: space-around;
+    gap: 150px;
+  }
+
+  .section2 img{
+    border-radius: 10px;
+    height: 600px;
+    margin-right: 80px;
+
+  }
+
+  .section2 div h2{
+    font-family: "Sansita Swashed", system-ui;
+    font-weight: 600;
+    font-size: 50px ;
+    margin : 0 0 70px 160px;
+  }
+
+  .section2 div p{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    margin-left: 60px;
+  }
+
+  /* footer */
+
+
+.footer{
+    background-image: url(img/footerBack.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 160px;
+    padding: 50px 0;
+  }
+  
+  .Followus{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    color: #E9BD8D;
+  }
+  
+  .firstelement{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 60px;
+    border-bottom: 1px solid #E9BD8D;
+  }
+  .Followus{
+    position: relative;
+    left: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+  }
+  .Followus img{
+    width: 30px;
+  }
+  
+  .Followus p{
+    position: relative;
+    right: 70px;
+  }
+  
+  .faboutus h3 {
+    color: #E9BD8D;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    margin-left: 40px;
+    font-size: 40px;
+  }
+  
+  .faboutus{
+    margin: 60px 0 0 180px;
+  }
+  
+  .faboutus ul li a{
+    color: #F5F5F5;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Poppins, "SemiBold";
+    font-weight: 600;
+    font-size: 20px;
+  }
+  
+  .faboutus ul li:first-child{
+    margin-bottom: 15px;
+  }
+  .faboutus ul li:last-child{
+    margin-top: 15px;
+  }
+  
+  .firstelement span img{
+    position: relative;
+    right: 60px;
+  }
+  .aboutExcontent {
+    display: flex;
+  }
+  
+  .ExploreMoretxt{
+    padding: 60px 0 60px 0;
+  }
+  
+  #Recenttxt{
+    margin-left: 120px;
+    margin-bottom: 45px;
+  }
+  
+  .recentitems{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: 120px;
+  }
+  
+  .recentInfos span:first-child{
+    font-family: Poppins, "SemiBold";
+    font-weight: 400;
+    font-size: 13px;
+    color: #E9BD8C;
+    display: block;
+    margin-bottom: 12px;
+  }
+  .recentInfos span:last-child{
+    font-family: Poppins, "SemiBold";
+    font-weight: 500;
+    font-size: 20px;
+    color: #F5F5F5;
+  }
+  
+  .recentInfos{
+    position: relative;
+    bottom: 10px;
+  }
+  
+  .footer h4{
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #737373;
+    margin-bottom: 0;
+    margin-top: 70px;
+  }
